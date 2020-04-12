@@ -1,37 +1,33 @@
 # menu
 To give the food item based on required selection
-#include<studio.h>
-void main()
+#include<stdio.h> 
+int main()
 {
- int x;
- printf("Enter the choice\n");
- scanf("%d",&x);
- switch(x)
- {
-  Case 1:
-  printf("Food item- Burger\n
-          Price - Rs 129\n");
-  break;
-  Case 2:
-   printf("Food item- Pizza\n
-          Price - Rs 239 \n");
-  break; 
-  Case 3:
-  printf("Food item- Pasta\n
-          Price - Rs 179\n");
-  break; 
-  Case 4:
-  printf("Food item- Sandwich\n
-          Price - Rs 149\n");
-  break;
-  Case 5:
-  printf("Food item- French Fries \n
-          Price - Rs 99\n");
-  break;
-  default:
-  printf("Wrong choice \n");
-  break;
+int x;
+printf("Enter the choice\n");
+scanf("%d",&x);
+switch(x)
+{
+case 1:
+printf("Food item - Burger\nPrice - Rs 129\n");
+break;
+case 2:
+printf("Food item - Pizza\nPrice - Rs 239\n");
+break; 
+case 3:
+printf("Food item- Pasta\n Price - Rs 179\n");
+break;
+case 4:
+printf("Food item- Sandwich\nPrice - Rs 149\n"); 
+break;
+case 5:
+printf("Food item- French Fries\nPrice - Rs 99\n");
+break;
+default:
+printf("Wrong choice \n");
+break;
 }
 return 0;
 }
+
 
